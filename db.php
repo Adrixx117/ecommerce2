@@ -5,7 +5,7 @@
 $host = "db.fr-pari1.bengt.wasmernet.com";
 $username = "12a7273370c98000bd657fc9f194";
 $password = "068f12a7-2733-724f-8000-864e8c4e7a92"; // **Pega aquí la contraseña que ves en Wasmer**
-$dbname = "productos_db";
+$dbname = "productos_db"; //nombre db
 $port = 10272;
 
 // Establecer la conexión usando MySQLi (Orientado a objetos)
