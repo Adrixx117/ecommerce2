@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - MyApp</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container auth-container">
+    <div class="logo">MyApp</div>
+    <h2>Iniciar Sesión</h2>
+    <p>Ingresa tus datos para continuar</p>
+
+    <form action="login.php" method="POST">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Contraseña" required>
+      <button type="submit" class="btn btn-primary">Entrar</button>
+    </form>
+
+    <p class="switch">¿No tienes cuenta? <a href="register.html">Regístrate</a></p>
+  </div>
+</body>
+</html>
